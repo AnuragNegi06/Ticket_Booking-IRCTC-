@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navBar{
+    padding: 10px;
+display:flex ;
+justify-content: space-between;
+background-color: rgb(255, 255, 255);
+color:rgb(0, 0, 0) ;
+}
+
+.navLeft{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(48, 48, 143);
+}
+.navLeft h1{
+    /* color: rgb(48, 48, 143); */
+    text-decoration:none
+}
+
+ .trainLogo{
+    height:2em;
+    width:2em;
+ }
+
+ 
+
+.navRight{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navRight p{
+    font-size:large;
+}
+
+.navRight p:hover{
+    color: red;
+}
+
+.question {
+   height:1.5em;
+    width:1.5em;
+}
+.question:hover{
+    cursor:help;
+    color: rgb(48, 48, 143);
+}
+
+.home{
+    height:1.5em;
+    width:1.5em;
+ }
+
+ .home:hover{
+    color: rgb(48, 48, 143);
+    cursor:pointer;
+ }
+
+ .notify{
+    height:1.5em;
+    width:1.5em;
+ }
+
+ .notify:hover{
+    color: rgb(48, 48, 143);
+    cursor:pointer;
+ }
+
+.login{
+    display: flex;
+    gap:20px;
+}
+.login button{
+    background-color: rgb(48, 48, 143);
+    color: white;
+    padding:3px;
+    text-decoration: none;
+    border: none;
+    width:4.5em;
+}
+
+.login button:hover{
+    background-color: rgb(10, 156, 37);
+    cursor:pointer;
+}
+
+
+
+.register{
+    display: flex;
+}
