@@ -1,3 +1,6 @@
+# Ticket_Booking-IRCTC-
+Ticket booking platform inspired by Indian railway web app.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
